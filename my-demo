@@ -1,0 +1,6 @@
+hai this demo class
+How do you list git Remote main Repository files?
+A. To list the files in a remote main repository in Git, you need to check first that you have a connection to the remote repository. this involves adding the remote repository as a remote in your local Git repository.
+   #git remote add <remote-name> <remote-url>
+   #git fetch <remote-name>
+   #git ls-tree --name-only <remote-name>/<remote-branch>
